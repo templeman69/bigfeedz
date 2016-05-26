@@ -1,9 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
 $body-bg: #ecf0f1;
 $navbar-default-bg: white;
+$font-family-sans-serif:           'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color: #d35400;
-$navbar-default-brand-color: #2ecc71;
+$navbar-default-brand-color: #d35400;
 @import 'bootstrap';
 
+
+.navbar-brand {
+	font-weight: bold;
+	font-size: 22px;
+}
 
 
 
