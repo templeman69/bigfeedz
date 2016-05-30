@@ -5,19 +5,53 @@ $navbar-default-bg: white;
 $font-family-sans-serif:           'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-link-color: #d35400;
 $navbar-default-brand-color: #d35400;
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
 
 
 .navbar-brand {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 3rem;
+}
+
+.carousel {
+  height: 500px;
+  margin-bottom: 20px;
+  margin: 0px;
+  margin-top: 0px;
 }
 
 
 
 
+.carousel-inner > .item > img {
+  min-width: 100%;
+  height: 60%;
+  
+}
+
+  .left.carousel-control {
+  bottom: 0px;
+}
+
+.right.carousel-control {
+  bottom: 0px;
+}
 
 
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 
 
