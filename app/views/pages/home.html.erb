@@ -45,32 +45,76 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><br><br><br><br><br><br><br><!-- /.carousel -->
+    </div><br><br><br><br><!-- /.carousel -->
 
 
-    <div class="container marketing">
+  <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-square" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt => "vegan") %>
-          <h2>Vegans</h2>
-          <p>Explore the full list of Vegan recipes</p>
-          <p><a class="btn btn-default" href="#" role="button">View recipes &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" width="140" height="140" <%= image_tag("veggiethumb.jpg", :alt => "veggie") %>  
-          <h2>Veggies</h2>
-          <p>Explore the full list of Vegetarian recipes</p>
-          <p><a class="btn btn-default" href="#" role="button">View recipes &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-square" width="140" height="140" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
-          <h2>Meat Eaters</h2>
-          <p>Explore the full list of Meat recipes</p>
-          <p><a class="btn btn-default" href="#" role="button">View recipes &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <img class="img-square" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt => "vegan") %>
+            <h2>Vegans</h2>
+            <p>Explore the full list of Vegan recipes</p>
+            <p><a class="btn btn-default" <%= link_to "View Recipes",vegan_path %>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-circle" width="140" height="140" <%= image_tag("veggiethumb.jpg", :alt => "veggie") %>  
+            <h2>Veggies</h2>
+            <p>Explore the full list of Vegetarian recipes</p>
+            <p><a class="btn btn-default" <%= link_to "View Recipes",veggie_path %>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="img-square" width="140" height="140" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
+            <h2>Meat Eaters</h2>
+            <p>Explore the full list of Meat recipes</p>
+            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
+          </div><!-- /.col-lg-4 -->
+        </div>
     </div> 
+
+    
+     <div class="container">
+      <section>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Pizza Insolito</h2>
+            <p class="lead">If your anything like me then unfortunately pizza is a big part of your diet, but even pizza can become boring when most takeaways have the same or at least very similar toppings this is what inspired us to create this unique and unusual pizza menu, hope you enjoy... <p><a class="btn btn-info" <%= link_to "View Pizzas",pizzas_path %>
+          </div>
+          <div class="col-md-5">
+            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("pizza.jpg", :alt => "pizza") %>
+          </div>
+        </div>
+      </section>
+      
+
+      <hr class="featurette-divider">
+      <section>
+        <div class="row featurette">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">Beefburger 5 Ways</h2>
+            <p class="lead"><!-- Text for spices --></p>
+          </div>
+
+          <div class="col-md-5 col-md-pull-7">
+            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("mexiburger.jpg", :alt => "mexi burger") %>
+          </div>
+      </section
+
+      <hr class="featurette-divider">
+      <section>
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Essential Spices</h2>
+            <p class="lead"><!-- Text for spices --></p>
+          </div>
+          <div class="col-md-5">
+            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("spice.jpg", :alt => "spice") %>
+          </div>
+        </div>
+      </section
+     </div>
+
+  </div>
 
 
