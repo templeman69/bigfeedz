@@ -53,17 +53,19 @@
       <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-sm-4">
-            <img class="img-thumbnail" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt => "vegan") %>
+            <img class="img-thumbnail" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt=> "vegan") %>
             <h2>Vegans</h2>
             <p>Explore the full list of Vegan recipes</p>
-            <p><a class="btn btn-default btn-warning" <%= link_to "View Recipes",vegan_path %>
+            <p><a class="btn btn-default btn-warning" <%= link_to "View Recipes",vegan_path %> 
           </div>
+
           <div class="col-sm-4">
             <img class="img-thumbnail" width="140" height="140" <%= image_tag("veggiethumb.jpg", :alt => "veggie") %>  
             <h2>Veggies</h2>
             <p>Explore the full list of Vegetarian recipes</p>
             <p><a class="btn btn-default btn-warning" <%= link_to "View Recipes",veggie_path %>
           </div>
+
           <div class="col-sm-4">
             <img class="img-thumbnail" width="140" height="140" <%= image_tag("meat.jpg", :alt => "meat") %> 
             <h2>Meat Eaters</h2>
