@@ -20,4 +20,10 @@ class PagesController < ApplicationController
   def pizzas
   end
 
+  def spices
+  end
+
+  def burgers
+  end
+
 end

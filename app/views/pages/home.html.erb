@@ -7,22 +7,22 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <%= image_tag("snickers.jpg", :alt => "slide1") %>
+          <%= image_tag("snickers_1.jpg", :alt => "slide1") %>
           <div class="container">
             <div class="carousel-caption">
               <h3>Vegan snickers</h3>
-              <p><a class="btn btn-default btn-success" <%= link_to "See Recipe",snickers_path %> 
+              <p><a class="btn btn-xs btn-info" <%= link_to "See Recipe",snickers_path %> 
             </div>
           </div>
         </div>
         <div class="item">
-          <%= image_tag("snickers_1.jpg", :alt => "slide2") %>
+          <%= image_tag("snickers.jpg", :alt => "slide2") %>
           <div class="container">
             <div class="carousel-caption">
 
               <h3></h3>
               
-              <p><a class="btn btn-default btn-success" <%= link_to "See Recipe",snickers_path %> 
+              <p><a class="btn btn-xs btn-info" <%= link_to "See Recipe",snickers_path %> 
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
 
               <h3></h3>
              
-              <p><a class="btn btn-default btn-success" <%= link_to "See Recipe",snickers_path %>
+              <p><a class="btn btn-xs btn-info" <%= link_to "See Recipe",snickers_path %>
             </div>
           </div>
         </div>
@@ -47,42 +47,42 @@
       </a>
     </div><br><br><br><br><!-- /.carousel -->
 
-
+  <hr class="featurette-divider">
   <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
         <div class="row">
-          <div class="col-sm-6 col-md-4">
-            <img class="img-square" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt => "vegan") %>
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="140" height="140" <%= image_tag("veganthumb.jpg", :alt => "vegan") %>
             <h2>Vegans</h2>
             <p>Explore the full list of Vegan recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",vegan_path %>
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",vegan_path %>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="img-circle" width="140" height="140" <%= image_tag("veggiethumb.jpg", :alt => "veggie") %>  
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="140" height="140" <%= image_tag("veggiethumb.jpg", :alt => "veggie") %>  
             <h2>Veggies</h2>
             <p>Explore the full list of Vegetarian recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",veggie_path %>
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",veggie_path %>
           </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="img-square" width="140" height="140" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="140" height="140" <%= image_tag("meat.jpg", :alt => "meat") %> 
             <h2>Meat Eaters</h2>
             <p>Explore the full list of Meat recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",meat_path %>
           </div><!-- /.col-lg-4 -->
         </div>
     </div> 
 
-    
+    <hr class="featurette-divider">
      <div class="container">
       <section>
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Pizza Insolito</h2>
-            <p class="lead">If your anything like me then unfortunately pizza is a big part of your diet, but even pizza can become boring when most takeaways have the same or at least very similar toppings this is what inspired us to create this unique and unusual pizza menu, hope you enjoy... <p><a class="btn btn-info" <%= link_to "View Pizzas",pizzas_path %>
+            <h2 class="featurette-heading"><u><b>Pizza Insolito</b></u></h2>
+            <p class="lead">If you're anything like me then unfortunately, pizza is a big part of your diet. But even pizza can be boring when most takeaways have the same or at least very similar toppings. This is what inspired us to create these unique and unusual pizzas! Hope you enjoy... <p><a class="btn btn-info" <%= link_to "View Pizzas",pizzas_path %>
           </div>
           <div class="col-md-5">
-            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("pizza.jpg", :alt => "pizza") %>
+            <img class="image-square img-responsive center-block" width="350" height="350" <%= image_tag("pizza.jpg", :alt => "pizza") %>
           </div>
         </div>
       </section>
@@ -92,29 +92,28 @@
       <section>
         <div class="row featurette">
           <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Beefburger 5 Ways</h2>
-            <p class="lead"><!-- Text for spices --></p>
+            <h2 class="featurette-heading"><u><b>Beefburger 5 Ways</b></u></h2>
+            <p class="lead">Nowadays you can get <i>anything</i> on a burger, Pulled pork, bacon, egg... But I wanted to create a variety of burgers that puts the emphasis back on the <b>beef</b> burger. <p><a class="btn btn-info" <%= link_to "View Burgers",burgers_path %>
           </div>
 
           <div class="col-md-5 col-md-pull-7">
-            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("mexiburger.jpg", :alt => "mexi burger") %>
+            <img class="image-square img-responsive center-block" width="350" height="350" <%= image_tag("mexiburger.jpg", :alt => "mexi burger") %>
           </div>
-      </section
+      </section>
 
       <hr class="featurette-divider">
       <section>
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">Essential Spices</h2>
-            <p class="lead"><!-- Text for spices --></p>
+            <h2 class="featurette-heading"><u><b>Essential Spices</b></u></h2>
+            <p class="lead">If you're anything like me then unfortunately, pizza is a big part of your diet. But even pizza can be boring when most takeaways have the same or at least very similar toppings. This is what inspired us to create these unique and unusual pizzas! Hope you enjoy... <p><a class="btn btn-info" <%= link_to "View Pizzas",pizzas_path %>
           </div>
           <div class="col-md-5">
-            <img class="image-square img-responsive center-block" width="300" height="300" <%= image_tag("spice.jpg", :alt => "spice") %>
+            <img class="image-square img-responsive center-block" width="350" height="350" <%= image_tag("spice.jpg", :alt => "spice") %>
           </div>
         </div>
-      </section
-     </div>
+      </section>
 
-  </div>
+      
 
 
