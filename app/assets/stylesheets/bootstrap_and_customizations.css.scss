@@ -13,8 +13,11 @@ $navbar-default-brand-color: #d35400;
 
 .navbar-brand {
 	font-weight: bold;
-	font-size: 3rem;
+	font-size: 2.5rem;
 }
+
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -36,11 +39,13 @@ $navbar-default-brand-color: #d35400;
 }
 
   .left.carousel-control {
-  bottom: 45px;
+  bottom: 85px;
+  top: 80px
 }
 
 .right.carousel-control {
-  bottom: 45px;
+  bottom: 85px;
+  top: 80px
 }
 
 .carousel-indicators {
@@ -136,5 +141,18 @@ $navbar-default-brand-color: #d35400;
 }
 
 .spices h2 {
-  color: #348288;
+  color:  #16a085;
 }
+
+
+/* CUSTOMIZE THE SNICKERS PAGE PAGE
+-------------------------------------------------- */
+
+.col-md-4 {
+  margin-top: 100px;
+}
+
+.snickers h2 {
+  color: #d35400;
+}
+
