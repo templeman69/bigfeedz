@@ -36,11 +36,11 @@ $navbar-default-brand-color: #d35400;
 }
 
   .left.carousel-control {
-  bottom: 55px;
+  bottom: 45px;
 }
 
 .right.carousel-control {
-  bottom: 55px;
+  bottom: 45px;
 }
 
 .carousel-indicators {
@@ -68,6 +68,9 @@ $navbar-default-brand-color: #d35400;
   margin-left: 10px;
 }
 
+
+
+
 /* CUSTOMIZE THE DIVIDERS
 -------------------------------------------------- */
 
@@ -90,14 +93,16 @@ $navbar-default-brand-color: #d35400;
   font-size: 3rem;
 }
 
+.recipe img {
+  height: 300px;
+
+}
+
 
 /* CUSTOMIZE THE ROW
 -------------------------------------------------- */
 
-.row img {
-  max-width: 60%;
-  
-}
+
 
 
 /* CUSTOMIZE THE CONTAINER
@@ -111,8 +116,25 @@ $navbar-default-brand-color: #d35400;
 
 .container img {
   max-width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 .container {
   text-align: center
+}
+
+/* CUSTOMIZE THE SPICE PAGE
+-------------------------------------------------- */
+.lead {
+  text-align: left
+}
+.lead img {
+  text-align: center
+}
+
+.lead b {
+  color: #C02942;
+}
+
+.spices h2 {
+  color: #348288;
 }

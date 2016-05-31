@@ -1,47 +1,46 @@
-<div class="container fluid">
+<div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
+      <div class="recipe">
         <div class="row">
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("crumble.jpg", :alt => "crumble") %>
-            <h2>Quick and easy Vegan Crumbles</h2>
-            <p>Check ot our list of Vegan crumbles from the classics to the .....</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",vegan_path %>
-          </div><!-- /.col-lg-4 -->
-
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("snickers.jpg", :alt => "snick") %>  
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="300" height="300" <%= image_tag("snickers.jpg", :alt => "snickers") %>
             <h2>Vegan Snickers</h2>
-            <p>Try this healthy take on the nuuty classic</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",veggie_path %>
-          </div><!-- /.col-lg-4 -->
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",snickers_path %>
+          </div>
 
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
-            <h2>Meat Eaters</h2>
-            <p>Explore the full list of Meat recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
-          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="300" height="300" <%= image_tag("noimage.jpg", :alt => "Burger 2") %>  
+            <h2>Recipe2</h2>
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",veggie_path %>
+          </div>
 
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
-            <h2>Meat Eaters</h2>
-            <p>Explore the full list of Meat recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
-          </div><!-- /.col-lg-4 -->
+          <div class="col-sm-4">
+            <img class="img-thumbnail" width="300" height="300" <%= image_tag("noimage.jpg", :alt => "Burger 3") %> 
+            <h2>Recipe3</h2>
+            <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",meat_path %>
+          </div>
+        </div>
 
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
-            <h2>Meat Eaters</h2>
-            <p>Explore the full list of Meat recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
-          </div><!-- /.col-lg-4 -->
+     
 
-          <div class="col-lg-4">
-            <img class="thumbnail" <%= image_tag("meatthumb.jpg", :alt => "meat") %> 
-            <h2>Meat Eaters</h2>
-            <p>Explore the full list of Meat recipes</p>
-            <p><a class="btn btn-default" <%= link_to "View Recipes",meat_path %>
-          </div><!-- /.col-lg-4 -->
-        </div> 
-</div>
+        <div class="row">
+              <div class="col-sm-4">
+                <img class="img-thumbnail" width="300" height="300" <%= image_tag("noimage.jpg", :alt => "Burger 4") %>
+                <h2>recipe4</h2>
+                <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",vegan_path %>
+              </div>
+
+              <div class="col-sm-4">
+                <img class="img-thumbnail" width="300" height="300" <%= image_tag("noimage.jpg", :alt => "burger5") %>  
+                <h2>Recipe5</h2> 
+                <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",veggie_path %>
+              </div>
+
+              <div class="col-sm-4">
+                <img class="img-thumbnail" width="300" height="300" <%= image_tag("noimage.jpg", :alt => "burger5") %>  
+                <h2>Recipe6</h2> 
+                <p><a class="btn btn-default btn-success" <%= link_to "View Recipes",veggie_path %>
+              </div>
+        </div>
+      </div>
+</div>  

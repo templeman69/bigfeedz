@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "pizzas" => "pages#pizzas"
   get "spices" => "pages#spices"
   get "burgers" => "pages#burgers"
+  get "mexicanburger" => "pages#mexicanburger"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

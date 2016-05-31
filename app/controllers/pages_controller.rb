@@ -26,4 +26,7 @@ class PagesController < ApplicationController
   def burgers
   end
 
+  def mexicanburger
+  end
+
 end
