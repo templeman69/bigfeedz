@@ -3,13 +3,19 @@
 $body-bg: white;
 $navbar-default-bg: white;
 $font-family-sans-serif:           'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-default-link-color: #d35400;
-$navbar-default-brand-color: #d35400;
+$navbar-default-link-color: #64D5F3;
+$navbar-default-brand-color: #FF8064;
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
+.btn-info {
+  background: #FF8064;
+}
 
+.btn-warning {
+  background: #03A51B;
+}
 
 .navbar-brand {
 	font-weight: bold;
@@ -155,4 +161,41 @@ $navbar-default-brand-color: #d35400;
 .snickers h2 {
   color: #d35400;
 }
+
+
+
+
+@media only screen and (max-width: 700px) {
+    
+
+.carousel {
+  height: 360px;
+  margin-bottom: 0px;
+  margin: 0px;
+  margin-top: 0px;
+}
+.carousel-inner > .item > img {
+  min-width: 100%;
+  height: 400px;
+  
+}
+  .left.carousel-control {
+  bottom: 235px;
+  top: 80px
+}
+
+.right.carousel-control {
+  bottom: 235px;
+  top: 80px
+}
+
+.carousel-indicators {
+  bottom: -30px;
+}
+
+
+}
+
+
+
 
